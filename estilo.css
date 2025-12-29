@@ -3,16 +3,6 @@
 body{
     
     font-family: "Gabarito", sans-serif;
- 
-    
-    background: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),url("./imagem/mega_sena.jpg");
-    background-size: cover;
-    background-position: center;
-     
-
     
     color: white;
 
@@ -26,26 +16,51 @@ body{
     justify-content: center;
     align-items: center;
 
-}
-
-main{
-
-    height: 50%;
-
-    border-radius: 20px;
-
-    padding: 20px;
-
+    
+    
     background: #134E5E;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
 }
-main div{
+
+#conteudo{
+    height: 50%;
+    width: 50%;
+    background-color: gainsboro;
+    border-radius: 20px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: green;
+}
+
+#conteudo header{
+    text-align: center;
+    flex: 1;
+}
+#conteudo main{
+    flex:2;
+    text-align: center;
+}
+
+#conteudo div{
     margin: 20px 0;
 }
 
-main input{
+#conteudo input{
     width: 60px;
 }
+#conteudo footer{
+    text-align: center;
+    font-size: 0.5rem;
+    flex: 1;
+}
+
+
+
+
+
