@@ -15,19 +15,21 @@ body {
     background: linear-gradient(135deg, #71B280, #134E5E);
 }
 
-#conteudo{
-    height: 50%;
-    width: 50%;
-    background-color: gainsboro;
-    border-radius: 20px;
-    padding: 20px;
+#conteudo {
+    width: 100%;
+    max-width: 480px;
+    background-color: #f9fafb;
+
+    border-radius: 16px;
+    padding: 2rem;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    gap: 1.5rem;
 
-    color: green;
+    color: #134E5E;
+
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
 }
 
 #conteudo header{
@@ -51,6 +53,7 @@ body {
     font-size: 0.5rem;
     flex: 1;
 }
+
 
 
 
